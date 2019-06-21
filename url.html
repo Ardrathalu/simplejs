@@ -1,0 +1,17 @@
+<html>
+<head>
+<script type="text/javascript">
+function urlfun()
+{
+var a = window.location.assign("http://70.62.130.206:7361/api/schedule");
+document.Urlform.response.value=a;
+}
+</script>
+</head>
+<body>
+<form name="Urlform">
+Response:<textarea name="response" rows="200" cols="200" ></textarea></br>
+<br><input type="button" name="btn" value="do a get request" onclick="urlfun()"></br>
+</body>
+</form>
+</html>
